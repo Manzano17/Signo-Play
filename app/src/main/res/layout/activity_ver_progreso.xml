@@ -7,6 +7,16 @@
     android:shape="rectangle"
     tools:context=".VerProgreso">
 
+    <ImageButton
+        android:id="@+id/btn_compartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="660dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeShareDrawable" />
+
     <Button
         android:id="@+id/btn_nivel4"
         android:layout_width="57dp"
